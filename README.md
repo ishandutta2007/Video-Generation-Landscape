@@ -12,6 +12,7 @@ https://www.reddit.com/r/MachineLearning/comments/9wk188/p_biggan_generators_on_
 | Samples       | Pretrained Models       | Code  | Paper  | Output Quality | License |
 | ------------- |:-----------------------:| -----:| ------:|---------------:|-------: |
 |[Memoji](https://www.youtube.com/watch?v=CjqERCCD4iM)|[Model]()|[Code]()|[](https://arxiv.org/abs/)| A | Non Commercial CC |
+|[Deep Fakes demo](https://www.youtube.com/watch?v=VXZlq70jHvw)|[(Download Pretrained model)](https://anonfile.com/p7w3m0d5be/face-swap.zip)|[Code]()|[](https://arxiv.org/abs/)| A |--|
 
 
 ## Work in progress:
@@ -21,6 +22,8 @@ If I missed your output sample/demo in this consolidation, just add and send a p
 ## Product Demos:
 
 - [Nvidea](https://www.youtube.com/watch?v=kSLJriaOumA)(official)
+- [Deep Fakes demo](https://www.youtube.com/watch?v=VXZlq70jHvw)
+
 
 ## Arxiv-sanity
 
