@@ -20,6 +20,11 @@ https://www.reddit.com/r/MachineLearning/comments/9wk188/p_biggan_generators_on_
 
 
 ## Work in progress:
+- https://github.com/alexlee-gk/video_prediction
+- https://github.com/liuziwei7/voxel-flow
+- https://github.com/Yunbo426/predrnn-pp
+- https://github.com/mabirck/Video_GAN_Sonic
+- https://github.com/xzr12/PredCNN
 
 If I missed your output sample/demo in this consolidation, just add and send a pull request. I will be more than happy to add it. Thanks!
 
