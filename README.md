@@ -1,7 +1,8 @@
 # Video Generation Landscape
 
 ## News:
-
+- https://www.fanaticalfuturist.com/2018/04/ai-can-create-videos-out-of-thin-air-using-just-text-as-an-input/
+- https://www.techinasia.com/gliacloud-uses-artificial-intelligence-to-automatically-turn-text-into-video
 
 ## Reddit Posts:
 
@@ -13,6 +14,9 @@ https://www.reddit.com/r/MachineLearning/comments/9wk188/p_biggan_generators_on_
 | ------------- |:-----------------------:| -----:| ------:|---------------:|-------: |
 |[Memoji](https://www.youtube.com/watch?v=CjqERCCD4iM)|[Model]()|[Code]()|[](https://arxiv.org/abs/)| A | Non Commercial CC |
 |[Deep Fakes demo](https://www.youtube.com/watch?v=VXZlq70jHvw)|[(Download Pretrained model)](https://anonfile.com/p7w3m0d5be/face-swap.zip)|[Code]()|[](https://arxiv.org/abs/)| A |--|
+|[VideoGAN](https://www.youtube.com/watch?v=Pt1W_v-yQhw)|[Download Model](https://drive.google.com/file/d/0B-xMJ5CYz_F9QS1BTE5yWl9aUWs/view?usp=sharing)|[Code](https://github.com/cvondrick/videogan)|[Tinyvideo](http://www.cs.columbia.edu/~vondrick/tinyvideo/)|--|--|
+|[Adversarial Video Generation](https://github.com/dyelax/Adversarial_Video_Generation#results-and-comparison)|[Download Model](https://drive.google.com/open?id=0Byf787GZQ7KvR2JvMUNIZnFlbm8)|[Code](https://github.com/dyelax/Adversarial_Video_Generation)|[1511.05440](https://arxiv.org/abs/1511.05440)|--|--|
+|[Improved VideoGAN](https://bernhard2202.github.io/ivgan/index.html)|--|[Code](https://github.com/bernhard2202/improved-video-gan)|[1711.11453](https://arxiv.org/abs/1711.11453)|--|--|
 
 
 ## Work in progress:
