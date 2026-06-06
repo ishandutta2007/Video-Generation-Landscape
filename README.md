@@ -1,43 +1,91 @@
 # Video Generation Landscape
 
-## News:
-- https://www.fanaticalfuturist.com/2018/04/ai-can-create-videos-out-of-thin-air-using-just-text-as-an-input/
-- https://www.techinasia.com/gliacloud-uses-artificial-intelligence-to-automatically-turn-text-into-video
+A curated list of state-of-the-art video generation models, research, and tools.
 
-## Reddit Posts:
+## 🚀 State-of-the-Art Models (2024–2026)
 
-https://www.reddit.com/r/MachineLearning/comments/9wk188/p_biggan_generators_on_tf_hub_with_colab_demo/
+The field has evolved from experimental GANs to massive Transformer-based Diffusion (DiT) models capable of generating cinematic-quality video from text or images.
 
-## Samples from github:
+### 🏢 Commercial / Closed-Source
+| Model | Developer | Best For | Key Features |
+| :--- | :--- | :--- | :--- |
+| **Runway Gen-3 Alpha** | Runway | Professional Control | Industry-leading motion brush, director mode, and character consistency. |
+| **Luma Dream Machine** | Luma AI | Cinematic Realism | High-speed generation, realistic physics, and complex camera movements. |
+| **Kling AI** | Kuaishou | Long-form Video | Supports videos up to 2 minutes, native 4K, and superior human movement. |
+| **OpenAI Sora** | OpenAI | High Fidelity | 60-second clips with high physical consistency (limited public release). |
+| **Google Veo 3** | Google | Integration | Native 4K, integrated with Google Vids and Workspace. |
+| **Pika 1.5** | Pika Labs | Creative Effects | Specialized in "Pikaffects" (physics-defying creative transformations). |
 
-| Samples       | Pretrained Models       | Code  | Paper  | Output Quality | License |
-| ------------- |:-----------------------:| -----:| ------:|---------------:|-------: |
-|[Memoji](https://www.youtube.com/watch?v=CjqERCCD4iM)|[Model]()|[Code]()|[](https://arxiv.org/abs/)| A | Non Commercial CC |
-|[Deep Fakes demo](https://www.youtube.com/watch?v=VXZlq70jHvw)|[(Download Pretrained model)](https://anonfile.com/p7w3m0d5be/face-swap.zip)|[Code]()|[](https://arxiv.org/abs/)| A |--|
-|[VideoGAN](https://www.youtube.com/watch?v=Pt1W_v-yQhw)|[Download Model](https://drive.google.com/file/d/0B-xMJ5CYz_F9QS1BTE5yWl9aUWs/view?usp=sharing)|[Code](https://github.com/cvondrick/videogan)|[Tinyvideo](http://www.cs.columbia.edu/~vondrick/tinyvideo/)|--|--|
-|[Adversarial Video Generation](https://github.com/dyelax/Adversarial_Video_Generation#results-and-comparison)|[Download Model](https://drive.google.com/open?id=0Byf787GZQ7KvR2JvMUNIZnFlbm8)|[Code](https://github.com/dyelax/Adversarial_Video_Generation)|[1511.05440](https://arxiv.org/abs/1511.05440)|--|--|
-|[Improved VideoGAN](https://bernhard2202.github.io/ivgan/index.html)|--|[Code](https://github.com/bernhard2202/improved-video-gan)|[1711.11453](https://arxiv.org/abs/1711.11453)|--|--|
+### 🔓 Open-Source / Weights Available
+| Model | Repository | Key Features | License |
+| :--- | :--- | :--- | :--- |
+| **Wan2.1** | [Wan-Video](https://github.com/Wan-Video/Wan2.1) | **Current SOTA (2025).** Best-in-class prompt adherence. Runs on 8GB-14GB VRAM. | Apache 2.0 |
+| **HunyuanVideo** | [Tencent](https://github.com/Tencent-Hunyuan/HunyuanVideo) | Cinematic quality, strong Image-to-Video (I2V) capabilities. | Apache 2.0 |
+| **Mochi-1** | [Genmo](https://github.com/genmoai/models) | High-fidelity motion (30fps) and strong physical realism. | Apache 2.0 |
+| **CogVideoX** | [Zhipu AI](https://github.com/THUDM/CogVideo) | Highly accessible; 2B/5B/v1.5 variants. | Apache 2.0 |
+| **SVD (Stable Video Diffusion)** | [Stability AI](https://github.com/Stability-AI/generative-models) | The industry standard for high-quality Image-to-Video workflows. | Stability NC |
+| **LTX-Video** | [Lightricks](https://github.com/lightricks/LTX-Video) | Optimized for real-time and efficient video generation. | Apache 2.0 |
 
+---
 
-## Work in progress:
-- https://github.com/alexlee-gk/video_prediction
-- https://github.com/liuziwei7/voxel-flow
-- https://github.com/Yunbo426/predrnn-pp
-- https://github.com/mabirck/Video_GAN_Sonic
-- https://github.com/xzr12/PredCNN
+## 🛠️ Ecosystem & Tools
 
-If I missed your output sample/demo in this consolidation, just add and send a pull request. I will be more than happy to add it. Thanks!
+Most modern video generation workflows utilize node-based interfaces for maximum control.
 
-## Product Demos:
+- **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)**: The de-facto standard for advanced video generation workflows.
+    - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite): Essential nodes for video I/O.
+    - [AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved): The best way to use AnimateDiff modules.
+- **[Stable Diffusion WebUI (A1111/Forge)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)**: Popular for stylized video via AnimateDiff and ControlNet.
+- **[Diffusers](https://github.com/huggingface/diffusers)**: Hugging Face's library for running these models in Python.
 
-- [Nvidea](https://www.youtube.com/watch?v=kSLJriaOumA)(official)
-- [Deep Fakes demo](https://www.youtube.com/watch?v=VXZlq70jHvw)
+---
 
+## 📄 Key Research Papers
 
-## Arxiv-sanity
+- **Sora: Video generation models as world simulators** (OpenAI, 2024)
+- **HunyuanVideo: Real-world Video Generation with Heterogeneous Diffusion Transformers** (Tencent, 2024)
+- **CogVideoX: Text-to-Video Diffusion Models with Compressed Video Latents** (Zhipu AI, 2024)
+- **Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets** (Stability AI, 2023)
+- **Scalable Diffusion Models with Transformers (DiT)** (Peebles & Xie, 2023)
+- **AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning** (Guo et al., 2023)
 
+---
 
-### Support:
+## 📊 Datasets
+
+- **Panda-70M**: 70M high-quality video-text pairs.
+- **WebVid-10M**: A large-scale dataset of short videos with captions.
+- **HD-VILA-100M**: High-resolution video-language dataset.
+
+---
+
+## 👥 Communities
+
+- **Reddit**: [r/StableDiffusion](https://www.reddit.com/r/StableDiffusion/), [r/SoraAI](https://www.reddit.com/r/SoraAI/)
+- **Discord**: Runway, Luma AI, Pika, and ComfyUI official servers.
+
+---
+
+## 🕰️ Historical Archive (2015–2022)
+
+*The models below represent the "Early Era" of video generation using GANs and VAEs.*
+
+### Early News:
+- [AI can create videos out of thin air (2018)](https://www.fanaticalfuturist.com/2018/04/ai-can-create-videos-out-of-thin-air-using-just-text-as-an-input/)
+- [GliaCloud turns text into video (2018)](https://www.techinasia.com/gliacloud-uses-artificial-intelligence-to-automatically-turn-text-into-video)
+
+### Early Samples:
+
+| Samples | Code | Paper |
+| :--- | :--- | :--- |
+| [Memoji](https://www.youtube.com/watch?v=CjqERCCD4iM) | -- | -- |
+| [VideoGAN](https://www.youtube.com/watch?v=Pt1W_v-yQhw) | [Code](https://github.com/cvondrick/videogan) | [Tinyvideo](http://www.cs.columbia.edu/~vondrick/tinyvideo/) |
+| [Adversarial Video Gen](https://github.com/dyelax/Adversarial_Video_Generation) | [Code](https://github.com/dyelax/Adversarial_Video_Generation) | [1511.05440](https://arxiv.org/abs/1511.05440) |
+| [Improved VideoGAN](https://bernhard2202.github.io/ivgan/index.html) | [Code](https://github.com/bernhard2202/improved-video-gan) | [1711.11453](https://arxiv.org/abs/1711.11453) |
+
+---
+
+## Support:
 
 If you want the good work to continue please support us on
 
