@@ -7,6 +7,9 @@ A curated list of state-of-the-art video generation models, research, and tools.
 [![GitHub issues](https://img.shields.io/github/issues/ishandutta2007/Video-Generation-Landscape?style=flat-square)](https://github.com/ishandutta2007/Video-Generation-Landscape/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ishandutta2007/Video-Generation-Landscape?style=flat-square)](https://github.com/ishandutta2007/Video-Generation-Landscape/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007?tab=followers">
+  <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ishandutta2007?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+</a>
 
 ## 🚀 State-of-the-Art Models (2024–2026)
 
