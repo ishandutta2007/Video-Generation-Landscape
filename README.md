@@ -2,6 +2,12 @@
 
 A curated list of state-of-the-art video generation models, research, and tools.
 
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Video-Generation-Landscape?style=flat-square)](https://github.com/ishandutta2007/Video-Generation-Landscape/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Video-Generation-Landscape?style=flat-square)](https://github.com/ishandutta2007/Video-Generation-Landscape/network)
+[![GitHub issues](https://img.shields.io/github/issues/ishandutta2007/Video-Generation-Landscape?style=flat-square)](https://github.com/ishandutta2007/Video-Generation-Landscape/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ishandutta2007/Video-Generation-Landscape?style=flat-square)](https://github.com/ishandutta2007/Video-Generation-Landscape/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## 🚀 State-of-the-Art Models (2024–2026)
 
 The field has evolved from experimental GANs to massive Transformer-based Diffusion (DiT) models capable of generating cinematic-quality video from text or images.
@@ -88,6 +94,9 @@ Most modern video generation workflows utilize node-based interfaces for maximum
 ## Support:
 
 If you want the good work to continue please support us on
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/ishandutta2007)
+[![Donate via Bitcoin](https://img.shields.io/badge/Donate-Bitcoin-orange.svg)](https://www.coinbase.com/join/5a8e4a045b02c403bc3a9c0c)
 
 * [PAYPAL](https://www.paypal.me/ishandutta2007)
 * [BITCOIN ADDRESS: 3LZazKXG18Hxa3LLNAeKYZNtLzCxpv1LyD](https://www.coinbase.com/join/5a8e4a045b02c403bc3a9c0c)
