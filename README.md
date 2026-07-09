@@ -47,6 +47,7 @@ Most modern video generation workflows utilize node-based interfaces for maximum
 - **[Stable Diffusion WebUI (A1111/Forge)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)**: Popular for stylized video via AnimateDiff and ControlNet.
 - **[Diffusers](https://github.com/huggingface/diffusers)**: Hugging Face's library for running these models in Python.
 - **[Seedream AI Studio](https://seedream4.video)**: Integrated image-to-video platform — generates images with Seedream 5.0/4.5/4.0 models (ByteDance), then animates to video with Kling 2.1 in one click. Free tier available.
+- **[ImagineClip](https://imagineclip.com)**: Freemium AI video generator for avatar clips, stylized scenes, and social-ready videos.
 
 ---
 
